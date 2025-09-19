@@ -1,0 +1,104 @@
+/* Minimal custom styles, honoring Bootstrap defaults */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* hero styles with solid colors (no gradients) and tight typography */
+.hero {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.hero .display-5 {
+  line-height: 1.2;
+}
+
+.hero .lead {
+  color: #495057;
+}
+
+.hero .btn-lg {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.hero-stats .fw-medium {
+  color: #0d6efd;
+}
+
+.nav-tabs .nav-link {
+  font-weight: 500;
+}
+
+/* hero animations (CSS-only, subtle, respects reduced motion) */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.anim-fade-up {
+  animation: fadeSlideUp .6s ease both;
+}
+.anim-pop {
+  animation: popIn .5s ease both;
+}
+
+.anim-delay-1 {
+  animation-delay: .08s;
+}
+.anim-delay-2 {
+  animation-delay: .16s;
+}
+.anim-delay-3 {
+  animation-delay: .24s;
+}
+
+.hero-cta {
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.hero-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.18);
+}
+
+/* subtle surface lift */
+.anim-surface {
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+.anim-surface:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+}
+
+/* Accessibility: reduce motion when requested */
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-up,
+  .anim-pop {
+    animation: none !important;
+  }
+  .anim-delay-1,
+  .anim-delay-2,
+  .anim-delay-3 {
+    animation-delay: 0s !important;
+  }
+  .hero-cta,
+  .anim-surface {
+    transition: none !important;
+  }
+}

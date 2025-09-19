@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block content %}
+ Result page with tabbed panels for different analyses 
+<div class="row justify-content-center">
+  <div class="col-12 col-xl-10">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h1 class="h4 m-0">Prediction Result</h1>
+      <div class="d-flex gap-2">
+        <a class="btn btn-outline-primary btn-sm" href="{{ url_for('home') }}">Single Student</a>
+        <a class="btn btn-outline-secondary btn-sm" href="{{ url_for('csv_page') }}">CSV</a>
+      </div>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+          <div class="d-flex align-items-center gap-3">
+            {% if result == "Pass" %}
+              <span class="badge bg-success fs-6 px-3 py-2">Pass</span>
+            {% elif result == "Fail" %}
+              <span class="badge bg-danger fs-6 px-3 py-2">Fail</span>
+            {% else %}
+              <span class="badge bg-secondary fs-6 px-3 py-2">{{ result }}</span>
+            {% endif %}
+            <div class="text-muted">Class: <strong>{{ class_level }}</strong></div>
+          </div>
+          <div class="text-muted">Average: <strong>{{ average }}</strong></div>
+        </div>
+
+         Tabs 
+        <ul class="nav nav-tabs" id="resultTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab">Overview</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="subjects-tab" data-bs-toggle="tab" data-bs-target="#subjects" type="button" role="tab">Subjects</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="comparison-tab" data-bs-toggle="tab" data-bs-target="#comparison" type="button" role="tab">Comparison</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="insights-tab" data-bs-toggle="tab" data-bs-target="#insights" type="button" role="tab">Insights</button>
+          </li>
+        </ul>
+
+        <div class="tab-content pt-3">
+           Overview 
+          <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+            <div class="row g-4">
+              <div class="col-12 col-md-6">
+                <h2 class="h6">Weak Subjects</h2>
+                {% if weak_subjects and weak_subjects|length > 0 %}
+                  <ul class="list-group list-group-flush">
+                    {% for sub in weak_subjects %}
+                      <li class="list-group-item d-flex align-items-center justify-content-between">
+                        <span>{{ sub }}</span>
+                        <span class="badge bg-warning text-dark">Below 40</span>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <div class="text-muted">No weak subjects detected.</div>
+                {% endif %}
+              </div>
+              <div class="col-12 col-md-6">
+                <h2 class="h6">Entered Marks</h2>
+                <ul class="list-group list-group-flush">
+                  {% for sub in subjects %}
+                  <li class="list-group-item d-flex align-items-center justify-content-between">
+                    <span>{{ sub }}</span>
+                    <span class="fw-semibold">{{ marks[sub] }}</span>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+           Subjects 
+          <div class="tab-pane fade" id="subjects" role="tabpanel" aria-labelledby="subjects-tab">
+            <div class="row">
+              <div class="col-12">
+                <img class="img-fluid rounded border" src="{{ subjects_plot }}" alt="Subject-wise marks chart" />
+              </div>
+            </div>
+          </div>
+
+           Comparison 
+          <div class="tab-pane fade" id="comparison" role="tabpanel" aria-labelledby="comparison-tab">
+            <div class="row">
+              <div class="col-12">
+                <img class="img-fluid rounded border" src="{{ compare_plot }}" alt="Student vs Class Average chart" />
+              </div>
+            </div>
+          </div>
+
+           Insights 
+          <div class="tab-pane fade" id="insights" role="tabpanel" aria-labelledby="insights-tab">
+            <div class="row g-3">
+              <div class="col-12 col-lg-8">
+                {% if insights and insights|length > 0 %}
+                  <ul class="list-group list-group-flush">
+                    {% for tip in insights %}
+                      <li class="list-group-item">{{ tip }}</li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <div class="text-muted">No specific insights available.</div>
+                {% endif %}
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="alert alert-info mb-0">
+                  <div class="fw-semibold mb-1">Tip</div>
+                  <div>Allocate extra study time to the weakest subjects first, then reinforce strengths.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

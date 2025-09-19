@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero rounded-4 p-4 p-md-5 mb-4">
+  <div class="row align-items-center g-4">
+    <div class="col-12 col-lg-7">
+      <h1 class="display-5 fw-semibold text-balance mb-2">Predict Student Performance with Confidence</h1>
+      <p class="lead text-pretty mb-3">
+        Enter a few details to estimate outcomes, highlight weak subjects, and compare against class averages.
+      </p>
+      <a href="#predict-form" class="btn btn-primary btn-lg">Get Started</a>
+    </div>
+    <div class="col-12 col-lg-5">
+      <div class="hero-stats card shadow-sm border-0">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="text-muted">Model</span>
+            <span class="fw-medium">LightGBM</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="text-muted">Inputs</span>
+            <span class="fw-medium">Class + 5 subjects</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="text-muted">Output</span>
+            <span class="fw-medium">Pass / Fail + insights</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="predict-form">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h2 class="h4 mb-3 text-balance">Enter Student Details</h2>
+          <form action="{{ url_for('predict') }}" method="POST" class="vstack gap-3">
+            <div>
+              <label for="class" class="form-label">Class</label>
+              <select id="class" name="class" class="form-select" required>
+                <option value="" selected disabled>Select class</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-6">
+                <label for="maths" class="form-label">Math</label>
+                <input type="number" class="form-control" id="maths" name="maths" min="0" max="100" step="1" required />
+              </div>
+              <div class="col-6">
+                <label for="science" class="form-label">Science</label>
+                <input type="number" class="form-control" id="science" name="science" min="0" max="100" step="1" required />
+              </div>
+              <div class="col-6">
+                <label for="english" class="form-label">English</label>
+                <input type="number" class="form-control" id="english" name="english" min="0" max="100" step="1" required />
+              </div>
+              <div class="col-6">
+                <label for="social" class="form-label">Social Studies</label>
+                <input type="number" class="form-control" id="social" name="social" min="0" max="100" step="1" required />
+              </div>
+              <div class="col-6">
+                <label for="computer" class="form-label">Computer Science</label>
+                <input type="number" class="form-control" id="computer" name="computer" min="0" max="100" step="1" required />
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2 pt-2">
+              <button type="reset" class="btn btn-outline-secondary">Reset</button>
+              <button type="submit" class="btn btn-primary">Predict</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,501 @@
+Student_ID,Name,Class,Attendance,Math,Science,English,Social_Studies,Computer_Science,Average,Result,Weak_Subjects
+1,Rahul,8,68,21,35,53,35,19,32.6,Fail,"Math, Science, Social_Studies, Computer_Science"
+2,Madhuri,8,54,69,98,19,35,98,63.8,Fail,"English, Social_Studies"
+3,Jyoti,8,94,3,80,32,2,25,28.4,Fail,"Math, English, Social_Studies, Computer_Science"
+4,Indira,8,77,23,72,32,12,45,36.8,Fail,"Math, English, Social_Studies"
+5,Mohan,8,69,2,0,32,1,56,18.2,Fail,"Math, Science, English, Social_Studies"
+6,Ramesh,8,82,23,24,37,31,3,23.6,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+7,Sakshi,8,82,94,38,89,20,92,66.6,Pass,"Science, Social_Studies"
+8,Mahesh,8,86,83,100,97,49,87,83.2,Pass,None
+9,Rajat,8,61,91,43,43,66,100,68.6,Fail,None
+10,Sonali,8,52,74,50,48,43,79,58.8,Fail,None
+11,Sunita,8,51,25,56,7,86,18,38.4,Fail,"Math, English, Computer_Science"
+12,Harsh,8,99,44,46,49,7,62,41.6,Pass,Social_Studies
+13,Pranav,8,66,69,79,83,57,23,62.2,Fail,Computer_Science
+14,Reema,8,75,25,87,61,35,75,56.6,Pass,"Math, Social_Studies"
+15,Jyoti,8,75,83,94,83,92,30,76.4,Pass,Computer_Science
+16,Seema,8,100,46,100,57,79,47,65.8,Pass,None
+17,Varun,8,56,89,69,25,29,99,62.2,Fail,"English, Social_Studies"
+18,Sakshi,8,60,36,88,13,16,96,49.8,Fail,"Math, English, Social_Studies"
+19,Riya,8,70,2,25,86,83,46,48.4,Fail,"Math, Science"
+20,Kirti,8,84,43,22,44,64,19,38.4,Fail,"Science, Computer_Science"
+21,Anjali,8,98,74,86,21,37,60,55.6,Pass,"English, Social_Studies"
+22,Krishna,8,72,23,81,95,13,49,52.2,Fail,"Math, Social_Studies"
+23,Sai,8,74,37,94,55,35,2,44.6,Fail,"Math, Social_Studies, Computer_Science"
+24,Gaurav,8,79,94,98,27,65,69,70.6,Pass,English
+25,Dev,8,98,68,58,34,1,50,42.2,Pass,"English, Social_Studies"
+26,Rachna,8,69,61,16,60,90,18,49,Fail,"Science, Computer_Science"
+27,Pranav,8,97,59,13,92,72,41,55.4,Pass,Science
+28,Ajay,8,74,49,30,53,64,34,46,Fail,"Science, Computer_Science"
+29,Chirag,8,62,74,98,78,66,25,68.2,Fail,Computer_Science
+30,Vikas,8,68,8,59,96,51,68,56.4,Fail,Math
+31,Mohan,8,98,33,44,6,61,92,47.2,Pass,"Math, English"
+32,Ajay,8,61,98,2,48,25,36,41.8,Fail,"Science, Social_Studies, Computer_Science"
+33,Usha,8,90,34,36,93,67,83,62.6,Pass,"Math, Science"
+34,Nikhil,8,56,21,54,60,34,63,46.4,Fail,"Math, Social_Studies"
+35,Amit,8,80,92,14,36,14,69,45,Pass,"Science, English, Social_Studies"
+36,Raj,8,96,10,92,91,59,3,51,Pass,"Math, Computer_Science"
+37,Kabir,8,61,29,81,49,41,23,44.6,Fail,"Math, Computer_Science"
+38,Seema,8,70,84,15,50,81,99,65.8,Fail,Science
+39,Rekha,8,72,4,65,35,34,40,35.6,Fail,"Math, English, Social_Studies"
+40,Rachna,8,91,61,33,78,77,59,61.6,Pass,Science
+41,Priya,8,84,17,31,41,51,88,45.6,Pass,"Math, Science"
+42,Sneha,8,78,71,98,11,72,84,67.2,Pass,English
+43,Hemant,8,96,50,61,20,65,85,56.2,Pass,English
+44,Amitabh,8,61,37,92,14,90,91,64.8,Fail,"Math, English"
+45,Ishaan,8,95,16,24,86,9,79,42.8,Pass,"Math, Science, Social_Studies"
+46,Mahesh,8,99,50,48,1,32,76,41.4,Pass,"English, Social_Studies"
+47,Aakash,8,78,5,29,40,64,44,36.4,Fail,"Math, Science"
+48,Amitesh,8,86,66,67,61,79,99,74.4,Pass,None
+49,Kunal,8,68,50,61,13,51,83,51.6,Fail,English
+50,Geeta,8,94,63,47,1,40,20,34.2,Fail,"English, Computer_Science"
+51,Ramesh,8,66,32,78,88,12,32,48.4,Fail,"Math, Social_Studies, Computer_Science"
+52,Raj,8,56,93,72,27,97,90,75.8,Fail,English
+53,Sanjay,8,68,100,36,75,67,19,59.4,Fail,"Science, Computer_Science"
+54,Monika,8,88,54,100,35,59,14,52.4,Pass,"English, Computer_Science"
+55,Aarav,8,76,32,42,44,11,47,35.2,Fail,"Math, Social_Studies"
+56,Ajay,8,62,96,10,13,19,36,34.8,Fail,"Science, English, Social_Studies, Computer_Science"
+57,Ashok,8,69,30,97,92,59,81,71.8,Fail,Math
+58,Krishna,8,77,46,24,9,62,68,41.8,Pass,"Science, English"
+59,Rohit,8,57,99,70,75,5,2,50.2,Fail,"Social_Studies, Computer_Science"
+60,Kirti,8,50,55,58,4,42,36,39,Fail,"English, Computer_Science"
+61,Sunita,8,52,14,71,19,1,87,38.4,Fail,"Math, English, Social_Studies"
+62,Kabir,8,62,28,19,7,59,48,32.2,Fail,"Math, Science, English"
+63,Kavya,8,87,67,97,63,82,60,73.8,Pass,None
+64,Nikhil,8,93,44,89,27,9,32,40.2,Pass,"English, Social_Studies, Computer_Science"
+65,Dev,8,94,1,40,36,88,49,42.8,Pass,"Math, English"
+66,Varun,8,70,42,46,43,78,23,46.4,Fail,Computer_Science
+67,Riya,8,60,26,86,55,72,60,59.8,Fail,Math
+68,Harsh,8,85,19,8,78,82,97,56.8,Pass,"Math, Science"
+69,Savita,8,90,22,81,72,61,85,64.2,Pass,Math
+70,Sakshi,8,98,46,61,36,6,48,39.4,Fail,"English, Social_Studies"
+71,Geeta,8,63,89,16,19,79,16,43.8,Fail,"Science, English, Computer_Science"
+72,Ishaan,8,64,45,87,25,15,97,53.8,Fail,"English, Social_Studies"
+73,Chirag,8,50,89,31,0,3,69,38.4,Fail,"Science, English, Social_Studies"
+74,Riya,8,61,96,67,68,51,4,57.2,Fail,Computer_Science
+75,Kabir,8,59,59,13,32,92,1,39.4,Fail,"Science, English, Computer_Science"
+76,Swati,8,81,42,100,50,51,21,52.8,Pass,Computer_Science
+77,Krishna,8,61,4,66,52,62,97,56.2,Fail,Math
+78,Hemant,8,57,28,75,56,91,39,57.8,Fail,"Math, Computer_Science"
+79,Geeta,8,77,40,78,55,70,58,60.2,Pass,None
+80,Sneha,8,58,100,97,83,61,63,80.8,Fail,None
+81,Indira,8,82,20,87,22,90,31,50,Pass,"Math, English, Computer_Science"
+82,Karan,8,77,53,71,79,20,19,48.4,Pass,"Social_Studies, Computer_Science"
+83,Ajay,8,54,20,76,85,89,13,56.6,Fail,"Math, Computer_Science"
+84,Sai,8,96,46,27,46,84,26,45.8,Pass,"Science, Computer_Science"
+85,Vivek,8,59,8,80,54,100,27,53.8,Fail,"Math, Computer_Science"
+86,Smita,8,99,51,44,42,31,62,46,Pass,Social_Studies
+87,Aarav,8,94,56,95,73,35,65,64.8,Pass,Social_Studies
+88,Rachna,8,70,1,90,71,25,38,45,Fail,"Math, Social_Studies, Computer_Science"
+89,Amit,8,75,6,76,88,67,51,57.6,Pass,Math
+90,Amit,8,71,90,5,67,51,88,60.2,Fail,Science
+91,Kavya,8,98,90,18,0,98,42,49.6,Pass,"Science, English"
+92,Rajesh,8,62,16,79,18,92,18,44.6,Fail,"Math, English, Computer_Science"
+93,Seema,8,90,50,96,13,37,10,41.2,Pass,"English, Social_Studies, Computer_Science"
+94,Archana,8,84,53,58,52,41,11,43,Pass,Computer_Science
+95,Amitesh,8,77,69,44,91,16,40,52,Pass,Social_Studies
+96,Sumit,8,54,32,52,63,40,100,57.4,Fail,Math
+97,Yash,8,72,25,37,40,28,46,35.2,Fail,"Math, Science, Social_Studies"
+98,Komal,8,86,84,6,47,9,47,38.6,Fail,"Science, Social_Studies"
+99,Yash,8,59,48,4,12,57,81,40.4,Fail,"Science, English"
+100,Kavya,8,95,91,31,3,58,6,37.8,Fail,"Science, English, Computer_Science"
+101,Monika,8,50,62,52,18,85,79,59.2,Fail,English
+102,Lakshmi,8,100,60,29,69,71,2,46.2,Pass,"Science, Computer_Science"
+103,Tanvi,8,94,48,38,97,48,2,46.6,Pass,"Science, Computer_Science"
+104,Ravi,8,53,0,81,12,16,39,29.6,Fail,"Math, English, Social_Studies, Computer_Science"
+105,Krishna,8,89,93,77,74,87,0,66.2,Pass,Computer_Science
+106,Usha,8,81,86,76,0,44,7,42.6,Pass,"English, Computer_Science"
+107,Madhuri,8,61,92,94,14,71,8,55.8,Fail,"English, Computer_Science"
+108,Aishwarya,8,66,0,69,32,98,62,52.2,Fail,"Math, English"
+109,Ananya,8,96,46,29,95,16,29,43,Pass,"Science, Social_Studies, Computer_Science"
+110,Kirti,8,64,91,73,43,19,33,51.8,Fail,"Social_Studies, Computer_Science"
+111,Krishna,8,86,93,95,89,20,3,60,Pass,"Social_Studies, Computer_Science"
+112,Ramesh,8,70,37,97,10,57,27,45.6,Fail,"Math, English, Computer_Science"
+113,Pooja,8,60,3,59,77,10,26,35,Fail,"Math, Social_Studies, Computer_Science"
+114,Seema,8,100,0,78,73,51,68,54,Pass,Math
+115,Karan,8,87,28,36,45,82,2,38.6,Fail,"Math, Science, Computer_Science"
+116,Dev,8,87,2,21,2,27,67,23.8,Fail,"Math, Science, English, Social_Studies"
+117,Madhuri,8,67,73,95,71,4,33,55.2,Fail,"Social_Studies, Computer_Science"
+118,Dev,8,79,82,99,47,4,25,51.4,Pass,"Social_Studies, Computer_Science"
+119,Mohan,8,64,33,67,65,93,4,52.4,Fail,"Math, Computer_Science"
+120,Kalpana,8,76,96,90,69,95,98,89.6,Pass,None
+121,Rekha,8,83,54,16,92,63,91,63.2,Pass,Science
+122,Sanjay,8,73,49,16,11,95,49,44,Fail,"Science, English"
+123,Amitabh,8,79,92,64,97,80,82,83,Pass,None
+124,Rohit,8,91,7,21,47,94,59,45.6,Pass,"Math, Science"
+125,Lakshmi,8,66,56,81,78,24,10,49.8,Fail,"Social_Studies, Computer_Science"
+126,Usha,8,53,86,63,14,78,72,62.6,Fail,English
+127,Monika,8,96,15,57,67,52,51,48.4,Pass,Math
+128,Chirag,8,72,67,86,20,31,33,47.4,Fail,"English, Social_Studies, Computer_Science"
+129,Ashok,8,65,36,25,12,94,40,41.4,Fail,"Math, Science, English"
+130,Rohit,8,57,94,28,77,97,57,70.6,Fail,Science
+131,Sanjay,8,81,6,14,34,17,16,17.4,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+132,Ankit,8,52,32,28,7,54,68,37.8,Fail,"Math, Science, English"
+133,Leela,8,81,18,31,29,58,14,30,Fail,"Math, Science, English, Computer_Science"
+134,Geeta,8,99,18,1,17,77,90,40.6,Pass,"Math, Science, English"
+135,Tanvi,8,100,35,46,1,88,34,40.8,Pass,"Math, English, Computer_Science"
+136,Geeta,8,90,86,46,12,93,72,61.8,Pass,English
+137,Vivek,8,83,36,83,55,17,86,55.4,Pass,"Math, Social_Studies"
+138,Sumit,8,76,52,2,35,45,24,31.6,Fail,"Science, English, Computer_Science"
+139,Amitesh,8,79,73,60,43,21,98,59,Pass,Social_Studies
+140,Savita,8,92,29,34,44,88,56,50.2,Pass,"Math, Science"
+141,Neha,8,97,58,63,46,21,52,48,Pass,Social_Studies
+142,Jyoti,8,66,86,24,12,91,45,51.6,Fail,"Science, English"
+143,Shalini,8,50,80,17,85,81,75,67.6,Fail,Science
+144,Ramesh,8,96,24,59,14,51,76,44.8,Pass,"Math, English"
+145,Anurag,8,72,57,52,23,22,90,48.8,Fail,"English, Social_Studies"
+146,Leela,8,63,69,70,67,36,37,55.8,Fail,"Social_Studies, Computer_Science"
+147,Ankit,8,56,84,92,23,96,99,78.8,Fail,English
+148,Ajay,8,95,37,23,38,18,18,26.8,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+149,Amitesh,8,92,33,59,73,22,29,43.2,Pass,"Math, Social_Studies, Computer_Science"
+150,Anurag,8,96,16,2,88,28,77,42.2,Pass,"Math, Science, Social_Studies"
+151,Omkar,8,87,75,14,35,24,39,37.4,Fail,"Science, English, Social_Studies, Computer_Science"
+152,Seema,8,86,56,16,46,71,21,42,Pass,"Science, Computer_Science"
+153,Omkar,8,77,30,83,48,0,47,41.6,Pass,"Math, Social_Studies"
+154,Pranav,8,59,5,99,98,4,82,57.6,Fail,"Math, Social_Studies"
+155,Swati,8,88,90,8,97,2,50,49.4,Pass,"Science, Social_Studies"
+156,Payal,8,66,39,37,32,64,2,34.8,Fail,"Math, Science, English, Computer_Science"
+157,Rajat,8,75,52,62,21,95,72,60.4,Pass,English
+158,Manish,8,74,9,1,36,97,83,45.2,Fail,"Math, Science, English"
+159,Manish,8,53,91,76,31,90,72,72,Fail,English
+160,Mohan,8,52,45,71,9,65,46,47.2,Fail,English
+161,Leela,8,90,63,20,72,40,13,41.6,Pass,"Science, Computer_Science"
+162,Lakshmi,8,67,53,93,76,8,52,56.4,Fail,Social_Studies
+163,Anurag,8,85,50,81,24,85,35,55,Pass,"English, Computer_Science"
+164,Jyoti,8,96,28,10,6,11,8,12.6,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+165,Omkar,8,98,39,32,66,13,51,40.2,Pass,"Math, Science, Social_Studies"
+166,Anjali,8,68,35,7,38,52,13,29,Fail,"Math, Science, English, Computer_Science"
+167,Sanjay,8,86,98,50,23,15,98,56.8,Pass,"English, Social_Studies"
+168,Surya,8,55,21,45,89,100,67,64.4,Fail,Math
+1,Rahul,9,65,74,97,39,7,84,60.2,Fail,"English, Social_Studies"
+2,Madhuri,9,76,8,16,29,59,59,34.2,Fail,"Math, Science, English"
+3,Jyoti,9,73,30,88,76,59,44,59.4,Fail,Math
+4,Indira,9,61,39,60,25,4,19,29.4,Fail,"Math, English, Social_Studies, Computer_Science"
+5,Mohan,9,99,100,42,21,43,16,44.4,Pass,"English, Computer_Science"
+6,Ramesh,9,84,35,41,65,26,70,47.4,Pass,"Math, Social_Studies"
+7,Sakshi,9,100,5,34,45,7,13,20.8,Fail,"Math, Science, Social_Studies, Computer_Science"
+8,Mahesh,9,92,65,2,14,71,2,30.8,Fail,"Science, English, Computer_Science"
+9,Rajat,9,59,93,18,5,69,23,41.6,Fail,"Science, English, Computer_Science"
+10,Sonali,9,93,61,43,5,86,29,44.8,Pass,"English, Computer_Science"
+11,Sunita,9,78,56,58,72,43,81,62,Pass,None
+12,Harsh,9,61,78,60,31,80,30,55.8,Fail,"English, Computer_Science"
+13,Pranav,9,78,18,7,74,76,57,46.4,Pass,"Math, Science"
+14,Reema,9,59,96,20,79,30,99,64.8,Fail,"Science, Social_Studies"
+15,Jyoti,9,75,19,80,3,46,63,42.2,Pass,"Math, English"
+16,Seema,9,83,11,86,5,54,18,34.8,Fail,"Math, English, Computer_Science"
+17,Varun,9,90,0,79,21,61,44,41,Pass,"Math, English"
+18,Sakshi,9,53,13,71,2,54,93,46.6,Fail,"Math, English"
+19,Riya,9,74,76,58,11,7,91,48.6,Fail,"English, Social_Studies"
+20,Kirti,9,85,32,25,11,2,74,28.8,Fail,"Math, Science, English, Social_Studies"
+21,Anjali,9,59,5,46,12,15,56,26.8,Fail,"Math, English, Social_Studies"
+22,Krishna,9,86,49,31,24,29,44,35.4,Fail,"Science, English, Social_Studies"
+23,Sai,9,58,9,9,44,22,32,23.2,Fail,"Math, Science, Social_Studies, Computer_Science"
+24,Gaurav,9,73,4,15,18,91,16,28.8,Fail,"Math, Science, English, Computer_Science"
+25,Dev,9,84,22,70,54,4,69,43.8,Pass,"Math, Social_Studies"
+26,Rachna,9,98,9,16,99,83,3,42,Pass,"Math, Science, Computer_Science"
+27,Pranav,9,85,12,84,92,20,90,59.6,Pass,"Math, Social_Studies"
+28,Ajay,9,67,39,85,52,83,14,54.6,Fail,"Math, Computer_Science"
+29,Chirag,9,98,1,6,54,69,69,39.8,Fail,"Math, Science"
+30,Vikas,9,88,83,13,31,21,46,38.8,Fail,"Science, English, Social_Studies"
+31,Mohan,9,81,64,78,50,81,77,70,Pass,None
+32,Ajay,9,73,62,6,43,71,74,51.2,Fail,Science
+33,Usha,9,86,16,71,17,15,15,26.8,Fail,"Math, English, Social_Studies, Computer_Science"
+34,Nikhil,9,62,14,92,36,97,9,49.6,Fail,"Math, English, Computer_Science"
+35,Amit,9,84,34,93,58,96,76,71.4,Pass,Math
+36,Raj,9,66,48,17,73,84,80,60.4,Fail,Science
+37,Kabir,9,65,100,85,19,100,38,68.4,Fail,"English, Computer_Science"
+38,Seema,9,84,59,12,23,48,0,28.4,Fail,"Science, English, Computer_Science"
+39,Rekha,9,85,36,41,95,44,69,57,Pass,Math
+40,Rachna,9,94,25,41,65,29,59,43.8,Pass,"Math, Social_Studies"
+41,Priya,9,63,88,12,35,66,30,46.2,Fail,"Science, English, Computer_Science"
+42,Sneha,9,60,13,45,17,20,23,23.6,Fail,"Math, English, Social_Studies, Computer_Science"
+43,Hemant,9,58,96,61,96,1,6,52,Fail,"Social_Studies, Computer_Science"
+44,Amitabh,9,66,14,55,7,77,91,48.8,Fail,"Math, English"
+45,Ishaan,9,91,77,64,13,24,94,54.4,Pass,"English, Social_Studies"
+46,Mahesh,9,58,52,93,77,53,88,72.6,Fail,None
+47,Aakash,9,87,6,17,59,53,55,38,Fail,"Math, Science"
+48,Amitesh,9,85,37,67,4,67,81,51.2,Pass,"Math, English"
+49,Kunal,9,55,56,11,64,24,31,37.2,Fail,"Science, Social_Studies, Computer_Science"
+50,Geeta,9,80,96,58,39,78,74,69,Pass,English
+51,Ramesh,9,93,26,60,55,44,87,54.4,Pass,Math
+52,Raj,9,59,67,69,22,31,70,51.8,Fail,"English, Social_Studies"
+53,Sanjay,9,75,85,38,46,95,20,56.8,Pass,"Science, Computer_Science"
+54,Monika,9,68,65,55,30,91,41,56.4,Fail,English
+55,Aarav,9,52,4,45,9,30,13,20.2,Fail,"Math, English, Social_Studies, Computer_Science"
+56,Ajay,9,77,12,76,73,92,20,54.6,Pass,"Math, Computer_Science"
+57,Ashok,9,88,51,3,0,92,89,47,Pass,"Science, English"
+58,Krishna,9,74,28,53,0,30,84,39,Fail,"Math, English, Social_Studies"
+59,Rohit,9,55,75,56,83,33,40,57.4,Fail,Social_Studies
+60,Kirti,9,94,94,5,100,10,70,55.8,Pass,"Science, Social_Studies"
+61,Sunita,9,65,25,53,48,55,80,52.2,Fail,Math
+62,Kabir,9,86,68,48,27,86,60,57.8,Pass,English
+63,Kavya,9,84,10,98,5,8,27,29.6,Fail,"Math, English, Social_Studies, Computer_Science"
+64,Nikhil,9,68,73,19,60,98,57,61.4,Fail,Science
+65,Dev,9,67,5,34,77,72,40,45.6,Fail,"Math, Science"
+66,Varun,9,52,12,98,34,3,97,48.8,Fail,"Math, English, Social_Studies"
+67,Riya,9,65,61,12,69,39,64,49,Fail,"Science, Social_Studies"
+68,Harsh,9,72,81,88,100,16,73,71.6,Fail,Social_Studies
+69,Savita,9,57,99,10,11,37,65,44.4,Fail,"Science, English, Social_Studies"
+70,Sakshi,9,87,67,55,19,49,73,52.6,Pass,English
+71,Geeta,9,73,36,91,87,100,15,65.8,Fail,"Math, Computer_Science"
+72,Ishaan,9,77,71,28,42,62,50,50.6,Pass,Science
+73,Chirag,9,77,39,8,94,13,59,42.6,Pass,"Math, Science, Social_Studies"
+74,Riya,9,86,85,39,42,100,9,55,Pass,"Science, Computer_Science"
+75,Kabir,9,90,10,24,49,85,98,53.2,Pass,"Math, Science"
+76,Swati,9,85,22,4,22,4,63,23,Fail,"Math, Science, English, Social_Studies"
+77,Krishna,9,62,35,37,51,78,20,44.2,Fail,"Math, Science, Computer_Science"
+78,Hemant,9,95,62,17,0,38,14,26.2,Fail,"Science, English, Social_Studies, Computer_Science"
+79,Geeta,9,51,52,76,64,81,57,66,Fail,None
+80,Sneha,9,54,25,61,29,80,24,43.8,Fail,"Math, English, Computer_Science"
+81,Indira,9,67,62,66,25,10,43,41.2,Fail,"English, Social_Studies"
+82,Karan,9,81,24,55,7,62,96,48.8,Pass,"Math, English"
+83,Ajay,9,60,37,39,90,54,5,45,Fail,"Math, Science, Computer_Science"
+84,Sai,9,74,81,32,45,33,22,42.6,Fail,"Science, Social_Studies, Computer_Science"
+85,Vivek,9,76,33,87,32,81,49,56.4,Pass,"Math, English"
+86,Smita,9,55,51,12,61,63,91,55.6,Fail,Science
+87,Aarav,9,80,48,41,69,0,84,48.4,Pass,Social_Studies
+88,Rachna,9,54,28,99,62,1,71,52.2,Fail,"Math, Social_Studies"
+89,Amit,9,52,21,26,32,47,8,26.8,Fail,"Math, Science, English, Computer_Science"
+90,Amit,9,59,70,44,72,59,41,57.2,Fail,None
+91,Kavya,9,68,80,57,76,20,59,58.4,Fail,Social_Studies
+92,Rajesh,9,66,83,30,30,27,83,50.6,Fail,"Science, English, Social_Studies"
+93,Seema,9,70,48,22,74,74,69,57.4,Fail,Science
+94,Archana,9,63,19,41,67,33,11,34.2,Fail,"Math, Social_Studies, Computer_Science"
+95,Amitesh,9,62,70,30,81,78,26,57,Fail,"Science, Computer_Science"
+96,Sumit,9,80,82,38,70,31,47,53.6,Pass,"Science, Social_Studies"
+97,Yash,9,88,31,95,84,64,3,55.4,Pass,"Math, Computer_Science"
+98,Komal,9,75,29,12,14,86,93,46.8,Pass,"Math, Science, English"
+99,Yash,9,83,28,45,64,100,69,61.2,Pass,Math
+100,Kavya,9,52,48,26,75,7,18,34.8,Fail,"Science, Social_Studies, Computer_Science"
+101,Monika,9,99,44,16,70,76,31,47.4,Pass,"Science, Computer_Science"
+102,Lakshmi,9,93,15,59,18,42,10,28.8,Fail,"Math, English, Computer_Science"
+103,Tanvi,9,79,17,34,88,23,0,32.4,Fail,"Math, Science, Social_Studies, Computer_Science"
+104,Ravi,9,97,77,82,48,23,20,50,Pass,"Social_Studies, Computer_Science"
+105,Krishna,9,88,7,93,65,14,24,40.6,Pass,"Math, Social_Studies, Computer_Science"
+106,Usha,9,83,54,92,8,6,96,51.2,Pass,"English, Social_Studies"
+107,Madhuri,9,99,31,67,84,50,24,51.2,Pass,"Math, Computer_Science"
+108,Aishwarya,9,100,86,63,27,7,60,48.6,Pass,"English, Social_Studies"
+109,Ananya,9,78,87,13,99,65,46,62,Pass,Science
+110,Kirti,9,59,58,46,42,49,84,55.8,Fail,None
+111,Krishna,9,59,53,75,86,48,97,71.8,Fail,None
+112,Ramesh,9,66,100,35,69,35,85,64.8,Fail,"Science, Social_Studies"
+113,Pooja,9,73,50,51,42,77,75,59,Fail,None
+114,Seema,9,54,96,75,20,40,91,64.4,Fail,English
+115,Karan,9,55,7,28,79,61,89,52.8,Fail,"Math, Science"
+116,Dev,9,62,34,32,14,20,27,25.4,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+117,Madhuri,9,97,77,31,74,90,32,60.8,Pass,"Science, Computer_Science"
+118,Dev,9,60,31,50,50,1,84,43.2,Fail,"Math, Social_Studies"
+119,Mohan,9,100,45,74,14,12,34,35.8,Fail,"English, Social_Studies, Computer_Science"
+120,Kalpana,9,60,84,45,18,31,46,44.8,Fail,"English, Social_Studies"
+121,Rekha,9,53,54,3,67,10,74,41.6,Fail,"Science, Social_Studies"
+122,Sanjay,9,53,81,98,26,14,22,48.2,Fail,"English, Social_Studies, Computer_Science"
+123,Amitabh,9,52,73,38,27,39,21,39.6,Fail,"Science, English, Social_Studies, Computer_Science"
+124,Rohit,9,76,22,28,15,72,10,29.4,Fail,"Math, Science, English, Computer_Science"
+125,Lakshmi,9,68,28,77,48,21,32,41.2,Fail,"Math, Social_Studies, Computer_Science"
+126,Usha,9,70,59,83,76,29,83,66,Fail,Social_Studies
+127,Monika,9,91,46,66,93,31,98,66.8,Pass,Social_Studies
+128,Chirag,9,71,68,80,74,50,39,62.2,Fail,Computer_Science
+129,Ashok,9,50,1,92,73,98,38,60.4,Fail,"Math, Computer_Science"
+130,Rohit,9,61,11,79,30,38,19,35.4,Fail,"Math, English, Social_Studies, Computer_Science"
+131,Sanjay,9,95,4,58,62,46,71,48.2,Pass,Math
+132,Ankit,9,98,37,5,41,20,62,33,Fail,"Math, Science, Social_Studies"
+133,Leela,9,63,93,18,60,12,66,49.8,Fail,"Science, Social_Studies"
+134,Geeta,9,75,8,56,41,20,3,25.6,Fail,"Math, Social_Studies, Computer_Science"
+135,Tanvi,9,94,97,68,55,7,57,56.8,Pass,Social_Studies
+136,Geeta,9,58,43,0,83,6,46,35.6,Fail,"Science, Social_Studies"
+137,Vivek,9,75,98,57,67,22,37,56.2,Pass,"Social_Studies, Computer_Science"
+138,Sumit,9,71,23,14,53,74,62,45.2,Fail,"Math, Science"
+139,Amitesh,9,85,80,11,20,12,99,44.4,Pass,"Science, English, Social_Studies"
+140,Savita,9,57,13,14,91,1,16,27,Fail,"Math, Science, Social_Studies, Computer_Science"
+141,Neha,9,71,72,45,9,26,78,46,Fail,"English, Social_Studies"
+142,Jyoti,9,63,21,88,87,49,81,65.2,Fail,Math
+143,Shalini,9,75,3,16,41,94,96,50,Pass,"Math, Science"
+144,Ramesh,9,51,86,26,25,76,90,60.6,Fail,"Science, English"
+145,Anurag,9,75,74,49,36,42,45,49.2,Pass,English
+146,Leela,9,100,17,2,49,60,13,28.2,Fail,"Math, Science, Computer_Science"
+147,Ankit,9,52,41,63,18,55,71,49.6,Fail,English
+148,Ajay,9,94,36,19,17,29,83,36.8,Fail,"Math, Science, English, Social_Studies"
+149,Amitesh,9,67,24,45,18,38,24,29.8,Fail,"Math, English, Social_Studies, Computer_Science"
+150,Anurag,9,100,85,93,96,7,13,58.8,Pass,"Social_Studies, Computer_Science"
+151,Omkar,9,64,84,77,54,57,25,59.4,Fail,Computer_Science
+152,Seema,9,74,26,70,68,15,86,53,Fail,"Math, Social_Studies"
+153,Omkar,9,93,70,85,47,63,27,58.4,Pass,Computer_Science
+154,Pranav,9,69,25,10,91,20,77,44.6,Fail,"Math, Science, Social_Studies"
+155,Swati,9,59,61,80,10,26,18,39,Fail,"English, Social_Studies, Computer_Science"
+156,Payal,9,94,1,17,77,12,37,28.8,Fail,"Math, Science, Social_Studies, Computer_Science"
+157,Rajat,9,96,52,94,1,89,39,55,Pass,"English, Computer_Science"
+158,Manish,9,71,35,37,63,57,80,54.4,Fail,"Math, Science"
+159,Manish,9,83,25,31,34,53,29,34.4,Fail,"Math, Science, English, Computer_Science"
+160,Mohan,9,57,20,44,84,80,63,58.2,Fail,Math
+161,Leela,9,89,10,88,17,77,32,44.8,Pass,"Math, English, Computer_Science"
+162,Lakshmi,9,91,58,10,40,19,74,40.2,Pass,"Science, Social_Studies"
+163,Anurag,9,90,38,85,74,74,52,64.6,Pass,Math
+164,Jyoti,9,75,97,40,45,69,77,65.6,Pass,None
+165,Omkar,9,83,54,16,18,55,93,47.2,Pass,"Science, English"
+166,Anjali,9,94,23,75,67,82,40,57.4,Pass,Math
+167,Sanjay,9,86,68,31,41,57,67,52.8,Pass,Science
+1,Rahul,10,59,52,32,79,38,3,40.8,Fail,"Science, Social_Studies, Computer_Science"
+2,Madhuri,10,81,20,19,85,100,9,46.6,Pass,"Math, Science, Computer_Science"
+3,Jyoti,10,50,69,82,91,96,23,72.2,Fail,Computer_Science
+4,Indira,10,53,93,61,73,72,36,67,Fail,Computer_Science
+5,Mohan,10,73,61,72,31,96,53,62.6,Fail,English
+6,Ramesh,10,65,61,25,96,69,20,54.2,Fail,"Science, Computer_Science"
+7,Sakshi,10,51,93,65,1,40,73,54.4,Fail,English
+8,Mahesh,10,98,94,72,96,67,37,73.2,Pass,Computer_Science
+9,Rajat,10,81,54,39,76,48,3,44,Pass,"Science, Computer_Science"
+10,Sonali,10,50,3,93,74,57,57,56.8,Fail,Math
+11,Sunita,10,82,78,97,60,2,54,58.2,Pass,Social_Studies
+12,Harsh,10,89,5,11,66,85,3,34,Fail,"Math, Science, Computer_Science"
+13,Pranav,10,92,50,100,8,1,33,38.4,Fail,"English, Social_Studies, Computer_Science"
+14,Reema,10,62,65,48,94,1,18,45.2,Fail,"Social_Studies, Computer_Science"
+15,Jyoti,10,80,74,16,40,34,59,44.6,Pass,"Science, Social_Studies"
+16,Seema,10,95,7,73,75,97,59,62.2,Pass,Math
+17,Varun,10,100,50,54,71,29,48,50.4,Pass,Social_Studies
+18,Sakshi,10,84,43,11,91,21,82,49.6,Pass,"Science, Social_Studies"
+19,Riya,10,72,4,61,61,43,21,38,Fail,"Math, Computer_Science"
+20,Kirti,10,57,67,82,6,68,29,50.4,Fail,"English, Computer_Science"
+21,Anjali,10,99,63,24,40,15,54,39.2,Fail,"Science, Social_Studies"
+22,Krishna,10,94,37,81,59,11,54,48.4,Pass,"Math, Social_Studies"
+23,Sai,10,78,10,11,74,15,17,25.4,Fail,"Math, Science, Social_Studies, Computer_Science"
+24,Gaurav,10,85,99,14,81,11,62,53.4,Pass,"Science, Social_Studies"
+25,Dev,10,97,1,25,7,29,46,21.6,Fail,"Math, Science, English, Social_Studies"
+26,Rachna,10,72,100,8,81,31,8,45.6,Fail,"Science, Social_Studies, Computer_Science"
+27,Pranav,10,81,72,47,69,32,89,61.8,Pass,Social_Studies
+28,Ajay,10,61,8,58,82,75,68,58.2,Fail,Math
+29,Chirag,10,90,93,38,2,22,93,49.6,Pass,"Science, English, Social_Studies"
+30,Vikas,10,71,77,23,62,74,45,56.2,Fail,Science
+31,Mohan,10,85,75,97,75,22,63,66.4,Pass,Social_Studies
+32,Ajay,10,68,0,42,84,81,48,51,Fail,Math
+33,Usha,10,61,39,39,30,54,20,36.4,Fail,"Math, Science, English, Computer_Science"
+34,Nikhil,10,58,63,89,57,5,73,57.4,Fail,Social_Studies
+35,Amit,10,77,59,86,23,21,4,38.6,Fail,"English, Social_Studies, Computer_Science"
+36,Raj,10,63,63,38,19,42,99,52.2,Fail,"Science, English"
+37,Kabir,10,68,71,3,3,85,89,50.2,Fail,"Science, English"
+38,Seema,10,54,13,24,59,11,34,28.2,Fail,"Math, Science, Social_Studies, Computer_Science"
+39,Rekha,10,74,34,32,48,37,56,41.4,Fail,"Math, Science, Social_Studies"
+40,Rachna,10,65,82,54,97,29,53,63,Fail,Social_Studies
+41,Priya,10,88,77,98,99,87,45,81.2,Pass,None
+42,Sneha,10,88,3,29,33,5,56,25.2,Fail,"Math, Science, English, Social_Studies"
+43,Hemant,10,80,41,12,5,79,83,44,Pass,"Science, English"
+44,Amitabh,10,54,88,17,38,6,23,34.4,Fail,"Science, English, Social_Studies, Computer_Science"
+45,Ishaan,10,72,39,95,57,13,35,47.8,Fail,"Math, Social_Studies, Computer_Science"
+46,Mahesh,10,92,38,38,2,14,29,24.2,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+47,Aakash,10,67,31,28,39,34,29,32.2,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+48,Amitesh,10,59,22,56,98,34,34,48.8,Fail,"Math, Social_Studies, Computer_Science"
+49,Kunal,10,93,62,15,25,81,54,47.4,Pass,"Science, English"
+50,Geeta,10,87,96,9,99,19,13,47.2,Pass,"Science, Social_Studies, Computer_Science"
+51,Ramesh,10,56,24,29,93,81,9,47.2,Fail,"Math, Science, Computer_Science"
+52,Raj,10,62,96,83,41,24,15,51.8,Fail,"Social_Studies, Computer_Science"
+53,Sanjay,10,89,65,4,43,65,53,46,Pass,Science
+54,Monika,10,76,38,2,36,35,69,36,Fail,"Math, Science, English, Social_Studies"
+55,Aarav,10,51,50,44,68,94,43,59.8,Fail,None
+56,Ajay,10,54,69,13,37,13,72,40.8,Fail,"Science, English, Social_Studies"
+57,Ashok,10,57,71,36,88,2,81,55.6,Fail,"Science, Social_Studies"
+58,Krishna,10,97,41,24,83,98,56,60.4,Pass,Science
+59,Rohit,10,50,14,64,69,5,67,43.8,Fail,"Math, Social_Studies"
+60,Kirti,10,71,28,52,16,24,49,33.8,Fail,"Math, English, Social_Studies"
+61,Sunita,10,74,26,14,65,7,6,23.6,Fail,"Math, Science, Social_Studies, Computer_Science"
+62,Kabir,10,94,35,48,34,20,69,41.2,Pass,"Math, English, Social_Studies"
+63,Kavya,10,53,28,87,100,97,14,65.2,Fail,"Math, Computer_Science"
+64,Nikhil,10,88,9,62,10,12,25,23.6,Fail,"Math, English, Social_Studies, Computer_Science"
+65,Dev,10,94,73,87,66,77,56,71.8,Pass,None
+66,Varun,10,99,37,61,79,17,57,50.2,Pass,"Math, Social_Studies"
+67,Riya,10,90,87,51,93,31,86,69.6,Pass,Social_Studies
+68,Harsh,10,77,7,92,42,22,18,36.2,Fail,"Math, Social_Studies, Computer_Science"
+69,Savita,10,98,4,62,75,82,88,62.2,Pass,Math
+70,Sakshi,10,82,46,73,56,4,11,38,Fail,"Social_Studies, Computer_Science"
+71,Geeta,10,81,26,2,46,1,67,28.4,Fail,"Math, Science, Social_Studies"
+72,Ishaan,10,96,35,4,75,49,85,49.6,Pass,"Math, Science"
+73,Chirag,10,70,35,4,36,30,32,27.4,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+74,Riya,10,69,37,60,19,20,42,35.6,Fail,"Math, English, Social_Studies"
+75,Kabir,10,96,71,49,1,27,38,37.2,Fail,"English, Social_Studies, Computer_Science"
+76,Swati,10,80,11,2,28,96,69,41.2,Pass,"Math, Science, English"
+77,Krishna,10,60,88,72,58,100,84,80.4,Fail,None
+78,Hemant,10,65,75,97,77,35,56,68,Fail,Social_Studies
+79,Geeta,10,57,91,8,97,61,38,59,Fail,"Science, Computer_Science"
+80,Sneha,10,77,30,66,88,98,85,73.4,Pass,Math
+81,Indira,10,85,8,24,49,6,75,32.4,Fail,"Math, Science, Social_Studies"
+82,Karan,10,75,50,97,28,26,87,57.6,Pass,"English, Social_Studies"
+83,Ajay,10,99,77,41,38,85,37,55.6,Pass,"English, Computer_Science"
+84,Sai,10,76,0,10,43,54,62,33.8,Fail,"Math, Science"
+85,Vivek,10,66,45,58,37,1,48,37.8,Fail,"English, Social_Studies"
+86,Smita,10,69,89,78,44,20,6,47.4,Fail,"Social_Studies, Computer_Science"
+87,Aarav,10,97,86,4,49,9,25,34.6,Fail,"Science, Social_Studies, Computer_Science"
+88,Rachna,10,78,56,47,7,86,67,52.6,Pass,English
+89,Amit,10,62,0,89,84,57,85,63,Fail,Math
+90,Amit,10,84,53,69,7,4,84,43.4,Pass,"English, Social_Studies"
+91,Kavya,10,55,54,36,28,64,78,52,Fail,"Science, English"
+92,Rajesh,10,67,39,59,95,12,85,58,Fail,"Math, Social_Studies"
+93,Seema,10,100,14,47,4,84,91,48,Pass,"Math, English"
+94,Archana,10,74,72,68,33,52,39,52.8,Fail,"English, Computer_Science"
+95,Amitesh,10,79,73,39,89,44,25,54,Pass,"Science, Computer_Science"
+96,Sumit,10,82,40,92,81,98,2,62.6,Pass,Computer_Science
+97,Yash,10,50,34,57,16,59,71,47.4,Fail,"Math, English"
+98,Komal,10,96,89,39,46,20,41,47,Pass,"Science, Social_Studies"
+99,Yash,10,98,74,97,75,51,98,79,Pass,None
+100,Kavya,10,82,42,39,30,51,68,46,Pass,"Science, English"
+101,Monika,10,83,58,91,79,28,50,61.2,Pass,Social_Studies
+102,Lakshmi,10,50,23,58,47,20,73,44.2,Fail,"Math, Social_Studies"
+103,Tanvi,10,70,24,47,68,41,7,37.4,Fail,"Math, Computer_Science"
+104,Ravi,10,97,70,40,89,12,23,46.8,Pass,"Social_Studies, Computer_Science"
+105,Krishna,10,66,87,88,65,8,35,56.6,Fail,"Social_Studies, Computer_Science"
+106,Usha,10,87,62,62,72,59,54,61.8,Pass,None
+107,Madhuri,10,86,27,59,88,96,14,56.8,Pass,"Math, Computer_Science"
+108,Aishwarya,10,58,85,9,97,7,1,39.8,Fail,"Science, Social_Studies, Computer_Science"
+109,Ananya,10,50,95,99,22,59,32,61.4,Fail,"English, Computer_Science"
+110,Kirti,10,98,12,1,82,86,91,54.4,Pass,"Math, Science"
+111,Krishna,10,83,50,92,87,82,100,82.2,Pass,None
+112,Ramesh,10,77,55,11,53,68,31,43.6,Pass,"Science, Computer_Science"
+113,Pooja,10,57,61,65,88,43,100,71.4,Fail,None
+114,Seema,10,50,29,97,20,86,11,48.6,Fail,"Math, English, Computer_Science"
+115,Karan,10,54,39,63,59,0,45,41.2,Fail,"Math, Social_Studies"
+116,Dev,10,79,18,87,92,50,15,52.4,Pass,"Math, Computer_Science"
+117,Madhuri,10,72,65,70,34,4,12,37,Fail,"English, Social_Studies, Computer_Science"
+118,Dev,10,63,50,62,98,30,94,66.8,Fail,Social_Studies
+119,Mohan,10,51,62,27,71,99,58,63.4,Fail,Science
+120,Kalpana,10,83,9,19,25,57,19,25.8,Fail,"Math, Science, English, Computer_Science"
+121,Rekha,10,87,91,11,25,9,92,45.6,Pass,"Science, English, Social_Studies"
+122,Sanjay,10,82,31,21,24,37,8,24.2,Fail,"Math, Science, English, Social_Studies, Computer_Science"
+123,Amitabh,10,64,6,9,4,91,5,23,Fail,"Math, Science, English, Computer_Science"
+124,Rohit,10,100,64,89,36,7,43,47.8,Pass,"English, Social_Studies"
+125,Lakshmi,10,54,66,49,43,72,65,59,Fail,None
+126,Usha,10,66,71,28,47,66,87,59.8,Fail,Science
+127,Monika,10,69,66,98,45,67,2,55.6,Fail,Computer_Science
+128,Chirag,10,83,91,6,22,88,29,47.2,Pass,"Science, English, Computer_Science"
+129,Ashok,10,51,33,10,46,9,20,23.6,Fail,"Math, Science, Social_Studies, Computer_Science"
+130,Rohit,10,92,95,5,24,35,89,49.6,Pass,"Science, English, Social_Studies"
+131,Sanjay,10,92,87,78,35,11,61,54.4,Pass,"English, Social_Studies"
+132,Ankit,10,80,53,97,85,15,50,60,Pass,Social_Studies
+133,Leela,10,65,13,97,33,31,81,51,Fail,"Math, English, Social_Studies"
+134,Geeta,10,89,47,80,51,9,56,48.6,Pass,Social_Studies
+135,Tanvi,10,74,6,12,28,16,47,21.8,Fail,"Math, Science, English, Social_Studies"
+136,Geeta,10,78,84,74,35,24,93,62,Pass,"English, Social_Studies"
+137,Vivek,10,54,81,21,3,83,15,40.6,Fail,"Science, English, Computer_Science"
+138,Sumit,10,67,1,74,89,84,33,56.2,Fail,"Math, Computer_Science"
+139,Amitesh,10,77,0,26,88,43,65,44.4,Pass,"Math, Science"
+140,Savita,10,70,19,55,6,45,27,30.4,Fail,"Math, English, Computer_Science"
+141,Neha,10,55,10,91,94,20,46,52.2,Fail,"Math, Social_Studies"
+142,Jyoti,10,54,66,20,38,31,69,44.8,Fail,"Science, English, Social_Studies"
+143,Shalini,10,75,19,100,70,11,0,40,Pass,"Math, Social_Studies, Computer_Science"
+144,Ramesh,10,96,85,37,6,95,14,47.4,Pass,"Science, English, Computer_Science"
+145,Anurag,10,96,80,33,0,85,20,43.6,Pass,"Science, English, Computer_Science"
+146,Leela,10,75,95,23,21,28,13,36,Fail,"Science, English, Social_Studies, Computer_Science"
+147,Ankit,10,98,8,79,8,28,38,32.2,Fail,"Math, English, Social_Studies, Computer_Science"
+148,Ajay,10,84,39,26,25,84,8,36.4,Fail,"Math, Science, English, Computer_Science"
+149,Amitesh,10,64,65,71,8,78,98,64,Fail,English
+150,Anurag,10,77,25,92,71,78,5,54.2,Pass,"Math, Computer_Science"
+151,Omkar,10,63,28,7,79,87,22,44.6,Fail,"Math, Science, Computer_Science"
+152,Seema,10,73,97,78,48,43,58,64.8,Fail,None
+153,Omkar,10,94,36,45,90,21,97,57.8,Pass,"Math, Social_Studies"
+154,Pranav,10,96,99,43,99,2,61,60.8,Pass,Social_Studies
+155,Swati,10,72,40,52,59,62,34,49.4,Fail,Computer_Science
+156,Payal,10,84,86,24,73,100,87,74,Pass,Science
+157,Rajat,10,88,97,47,20,3,41,41.6,Pass,"English, Social_Studies"
+158,Manish,10,71,11,59,80,98,18,53.2,Fail,"Math, Computer_Science"
+159,Manish,10,66,44,87,14,88,44,55.4,Fail,English
+160,Mohan,10,62,16,71,34,9,70,40,Fail,"Math, English, Social_Studies"
+161,Leela,10,74,84,63,70,45,62,64.8,Fail,None
+162,Lakshmi,10,96,64,63,56,35,60,55.6,Pass,Social_Studies
+163,Anurag,10,93,10,40,41,33,88,42.4,Pass,"Math, Social_Studies"
+164,Jyoti,10,55,53,87,59,94,58,70.2,Fail,None
+165,Omkar,10,82,55,78,31,3,91,51.6,Pass,"English, Social_Studies"

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block content %}
+  <section class="hero rounded-4 p-4 p-md-5 mb-4 anim-surface">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-lg-7">
+        <h1 class="display-5 fw-semibold text-balance mb-2 anim-fade-up anim-delay-1">Understand and Improve Student Outcomes</h1>
+        <p class="lead text-pretty mb-4 anim-fade-up anim-delay-2">
+          Predict results, identify weak subjects, and compare performance across the class with rich visual insights.
+        </p>
+        <div class="d-flex flex-wrap gap-3 anim-fade-up anim-delay-3">
+          <a href="{{ url_for('predict') }}" class="btn btn-primary btn-lg hero-cta">Single Student</a>
+          <a href="{{ url_for('csv_page') }}" class="btn btn-outline-primary btn-lg hero-cta">Upload CSV</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="card h-100 shadow-sm anim-pop">
+              <div class="card-body">
+                <div class="text-muted small mb-1">Subjects</div>
+                <div class="h4 m-0">5 core</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card h-100 shadow-sm anim-pop anim-delay-1">
+              <div class="card-body">
+                <div class="text-muted small mb-1">Prediction</div>
+                <div class="h4 m-0">Pass / Fail</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card h-100 shadow-sm anim-pop anim-delay-2">
+              <div class="card-body">
+                <div class="text-muted small mb-1">Insights</div>
+                <div class="m-0">Weak subjects, class comparison, and distributions for data-driven decisions.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-3 py-md-4">
+    <div class="row g-4">
+      <div class="col-12">
+        <h2 class="h5 mb-2 anim-fade-up">How it works</h2>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm h-100 anim-pop">
+          <div class="card-body">
+            <div class="badge bg-primary rounded-pill mb-2">1</div>
+            <h3 class="h6 mb-1">Choose a mode</h3>
+            <p class="text-muted mb-0">Start with a single student or upload a CSV with multiple students.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm h-100 anim-pop anim-delay-1">
+          <div class="card-body">
+            <div class="badge bg-primary rounded-pill mb-2">2</div>
+            <h3 class="h6 mb-1">Provide data</h3>
+            <p class="text-muted mb-0">Enter marks and class, or import a CSV. Your uploaded CSV stays until you remove it.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm h-100 anim-pop anim-delay-2">
+          <div class="card-body">
+            <div class="badge bg-primary rounded-pill mb-2">3</div>
+            <h3 class="h6 mb-1">View insights</h3>
+            <p class="text-muted mb-0">See predictions, charts, and actionable suggestions to improve outcomes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
